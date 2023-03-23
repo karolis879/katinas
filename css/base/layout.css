@@ -11,7 +11,7 @@
 
 @media (max-width:600px) {
     body > .main-header > .logo {
-        object-fit: contain;
+        object-position: initial;
     }
 
     .main-content {
