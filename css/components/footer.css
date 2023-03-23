@@ -1,0 +1,44 @@
+.bottom-footer {
+    margin: 0;
+}
+
+.main-footer-text {
+    color: black;
+}
+
+.main-footer-text > .span {
+    margin-top: 20spx;
+    font-style: italic;
+    color: rgb(191, 191, 189);
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.socials {
+    display: flex;
+    gap: 60px;
+    margin-right: 10%;
+    flex-wrap: wrap;
+
+}
+
+.social-link {
+    font-size: 30px;
+    color: rgb(191, 191, 189);
+    transition: 0.3s;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-link:hover {
+    color: rgb(191, 191, 189);
+    background-color: #fff;
+}
+
+.copyright {
+    color: black;
+}
