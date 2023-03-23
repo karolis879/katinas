@@ -9,6 +9,13 @@
     margin-right: 10%;
 }
 
+@media (max-width:1240px) {
+    body > .main-footer {
+    padding-top: 0;
+    padding-bottom: 0;
+    }
+}
+
 @media (max-width:600px) {
     body > .main-header > .logo {
         object-position: initial;
